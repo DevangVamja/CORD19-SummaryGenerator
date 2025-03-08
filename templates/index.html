@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORD19-SummaryGenerator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Welcome Message and Explanation -->
+        <div id="welcome-message">
+            <h1>Welcome to CORD19-SummaryGenerator!</h1>
+            <p>
+                This app helps you find and summarize articles from the CORD-19 dataset. 
+                Simply enter a topic or keyword, and the app will search for relevant articles 
+                and provide a summary for the selected documents.
+            </p>
+        </div>
+
+        <!-- Chat Box -->
+        <div id="chat-box">
+            <!-- Chat messages will be dynamically added here -->
+        </div>
+
+        <!-- Input Container -->
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Enter a topic or keyword...">
+            <button id="send-btn">Search</button>
+        </div>
+
+        <!-- Typing Indicator -->
+        <div id="typing-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
