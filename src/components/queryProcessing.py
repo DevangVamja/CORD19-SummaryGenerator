@@ -1,5 +1,4 @@
 import pandas as pd
-import pickle
 import torch
 from src.components.preprocess import Preprocessor
 from src.utils import preprocess_query, rank_docs, fix_incomplete_sentence
@@ -31,3 +30,11 @@ class QueryProcessor:
             
     
     
+'''
+Filename: e:\projects\CORD19-SummaryGenerator\src\components\queryProcessing.py
+Path: e:\projects\CORD19-SummaryGenerator\src\components
+Created Date: Friday, March 7th 2025, 5:44:36 pm
+Author: Devang Vamja
+
+Copyright (c) 2025 Your Company
+'''

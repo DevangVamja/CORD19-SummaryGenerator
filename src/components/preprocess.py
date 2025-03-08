@@ -50,3 +50,11 @@ class Preprocessor:
         self.inverted_index = inverted_index(self.document_list)
         return self.document_list,self.inverted_index
 
+'''
+Filename: e:\projects\CORD19-SummaryGenerator\src\components\preprocess.py
+Path: e:\projects\CORD19-SummaryGenerator\src\components
+Created Date: Friday, March 7th 2025, 4:35:27 pm
+Author: Devang Vamja
+
+Copyright (c) 2025 Your Company
+'''

@@ -1,0 +1,4 @@
+pandas
+torch
+spacy
+en-core-web-sm

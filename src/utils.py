@@ -69,3 +69,12 @@ def fix_incomplete_sentence(text):
             # Remove the last incomplete sentence
             text = ' '.join(sentences[:-1])
     return text
+
+'''
+Filename: e:\projects\CORD19-SummaryGenerator\src\utils.py
+Path: e:\projects\CORD19-SummaryGenerator\src
+Created Date: Friday, March 7th 2025, 5:25:48 pm
+Author: Devang Vamja
+
+Copyright (c) 2025 Your Company
+'''
